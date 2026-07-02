@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politica di Rimborso — Neapointer</title>
+<meta name="description" content="Politica di rimborso di Neapointer per eventi annullati, rinviati e richieste degli utenti. Bozza da sottoporre a revisione legale.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#070F1C">
+<link rel="canonical" href="https://neapointer.it/rimborsi/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%23070F1C'/%3E%3Cg stroke='%23F45A20' stroke-width='3.4' stroke-linecap='round'%3E%3Cline x1='32' y1='19' x2='32' y2='13'/%3E%3Cline x1='21' y1='23' x2='17' y2='19'/%3E%3Cline x1='43' y1='23' x2='47' y2='19'/%3E%3C/g%3E%3Cpath d='M18 42 A14 14 0 0 1 46 42 Z' fill='%23F45A20'/%3E%3Cline x1='14' y1='46' x2='50' y2='46' stroke='%23F45A20' stroke-width='4.6' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Manrope:wght@400;500;600;700&family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#070F1C;color:#D3DCE8;font-family:Manrope,system-ui,sans-serif;font-size:16.5px;line-height:1.7;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+::selection{background:#F45A20;color:#fff}
+:focus-visible{outline:2px solid #F45A20;outline-offset:3px;border-radius:4px}
+.doc h2{font-family:Sora,sans-serif;font-weight:700;font-size:22px;color:#fff;margin:40px 0 12px;letter-spacing:-.3px}
+.doc h2 span{color:#F45A20;font-size:15px;font-weight:700;margin-right:10px}
+.doc p{margin:0 0 14px}
+.doc ul{margin:0 0 14px;padding-left:20px}
+.doc li{margin-bottom:7px}
+.doc a{color:#FF8A5C}
+.ph{display:inline-block;background:rgba(244,90,32,.14);color:#FFB08A;padding:1px 8px;border-radius:6px;font-weight:600;font-size:.94em}
+@media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
+</style>
+</helmet>
+
+<header style="position:sticky;top:0;z-index:100;background:rgba(7,15,28,0.85);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.08)">
+  <div style="max-width:900px;margin:0 auto;padding:16px 24px;display:flex;align-items:center;justify-content:space-between;gap:20px">
+    <a href="index.dc.html" aria-label="Neapointer home" style="display:flex;align-items:center;gap:11px;text-decoration:none">
+      <svg width="30" height="21" viewBox="0 0 100 66" fill="none" aria-hidden="true"><g stroke="#F45A20" stroke-width="6" stroke-linecap="round"><line x1="50" y1="18" x2="50" y2="6"/><line x1="30.7" y1="23.4" x2="23.2" y2="14.5"/><line x1="69.3" y1="23.4" x2="76.8" y2="14.5"/><line x1="16.4" y1="34.9" x2="6.2" y2="29.1"/><line x1="83.6" y1="34.9" x2="93.8" y2="29.1"/></g><path d="M20 54 A30 30 0 0 1 80 54 Z" fill="#F45A20"/><line x1="10" y1="59" x2="90" y2="59" stroke="#F45A20" stroke-width="7" stroke-linecap="round"/></svg>
+      <span style="font-family:Comfortaa,sans-serif;font-weight:700;font-size:19px;color:#fff">neapointer<span style="color:#F45A20">.it</span></span>
+    </a>
+    <a href="index.dc.html" style="display:inline-flex;align-items:center;gap:8px;color:#B4C1D2;font-weight:600;font-size:15px;text-decoration:none" style-hover="color:#fff"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>Home</a>
+  </div>
+</header>
+
+<main style="max-width:820px;margin:0 auto;padding:48px 24px 80px">
+  <div style="font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#F45A20;margin-bottom:12px">Documento legale</div>
+  <h1 style="font-family:Sora,sans-serif;font-weight:800;font-size:clamp(30px,5vw,44px);line-height:1.08;letter-spacing:-1px;margin:0 0 10px;color:#fff">Politica di rimborso</h1>
+  <p style="color:#8194A9;font-size:15px;margin:0 0 26px">Ultimo aggiornamento: <span class="ph">[gg/mm/aaaa]</span> · Versione bozza</p>
+
+  <div style="display:flex;gap:14px;align-items:flex-start;padding:18px 20px;border:1px solid rgba(244,90,32,.35);background:rgba(244,90,32,.08);border-radius:14px;margin-bottom:38px">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F45A20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:2px"><path d="M12 9v4M12 17h.01"/><path d="M10.3 3.9L2.4 18a2 2 0 0 0 1.7 3h15.8a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg>
+    <div style="font-size:15px;color:#F6D9CC"><strong style="color:#fff">Bozza da sottoporre a revisione legale.</strong> Questo testo è un modello di riferimento non vincolante. Le funzionalità di acquisto non sono ancora attive; la presente politica sarà applicabile al completamento del lancio della piattaforma e deve essere verificata da un consulente legale.</div>
+  </div>
+
+  <div class="doc">
+    <p>La presente politica descrive i criteri di rimborso previsti da Neapointer per gli accessi e le prenotazioni agli eventi, una volta attivate le funzionalità di acquisto. Le condizioni specifiche possono variare in base all'organizzatore dell'evento.</p>
+
+    <h2><span>1.</span>Eventi annullati</h2>
+    <p>In caso di annullamento di un evento, l'utente ha diritto al rimborso dell'importo pagato per l'accesso, secondo le modalità indicate al momento dell'acquisto. <span class="ph">[Specificare se i costi di servizio sono inclusi o meno]</span>.</p>
+
+    <h2><span>2.</span>Eventi rinviati</h2>
+    <p>In caso di rinvio, l'accesso acquistato resta di norma valido per la nuova data. Qualora l'utente non possa partecipare alla data riprogrammata, potrà richiedere il rimborso entro <span class="ph">[numero di giorni]</span> dalla comunicazione del rinvio.</p>
+
+    <h2><span>3.</span>Richieste dell'utente</h2>
+    <p>Le richieste di rimborso su iniziativa dell'utente (es. ripensamento) sono valutate in base alle condizioni del singolo evento e alla normativa applicabile. Alcuni eventi possono prevedere accessi non rimborsabili, chiaramente indicati prima dell'acquisto.</p>
+
+    <h2><span>4.</span>Costi di servizio</h2>
+    <p>Eventuali costi di servizio o commissioni applicati da Neapointer o dai provider di pagamento possono non essere rimborsabili, salvo diversa indicazione o obbligo di legge. <span class="ph">[Dettagliare la politica sui costi di servizio]</span>.</p>
+
+    <h2><span>5.</span>Tempi di rimborso</h2>
+    <p>I rimborsi approvati vengono erogati sullo stesso metodo di pagamento utilizzato per l'acquisto, di norma entro <span class="ph">[numero di giorni lavorativi]</span> dall'accettazione della richiesta. I tempi effettivi possono dipendere dal circuito di pagamento.</p>
+
+    <h2><span>6.</span>Casi esclusi</h2>
+    <p>Non danno diritto a rimborso, salvo diversa previsione: la mancata partecipazione all'evento senza annullamento o rinvio, l'utilizzo parziale dell'accesso, e i casi in cui l'evento si sia regolarmente svolto secondo le condizioni comunicate. <span class="ph">[Elencare eventuali ulteriori esclusioni]</span>.</p>
+
+    <h2><span>7.</span>Come richiedere un rimborso</h2>
+    <p>Per richiedere un rimborso è possibile scrivere a <a href="mailto:neapointer80126@gmail.com">neapointer80126@gmail.com</a> indicando l'evento e i riferimenti dell'ordine. Neapointer risponderà nel più breve tempo possibile.</p>
+  </div>
+
+  <div style="margin-top:44px;padding-top:26px;border-top:1px solid rgba(255,255,255,.08);display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center">
+    <div style="display:flex;flex-wrap:wrap;gap:16px;font-size:14.5px"><a href="privacy.dc.html" style="color:#8194A9;text-decoration:none" style-hover="color:#fff">Privacy Policy</a><a href="termini.dc.html" style="color:#8194A9;text-decoration:none" style-hover="color:#fff">Termini e condizioni</a><a href="index.dc.html#contatti" style="color:#8194A9;text-decoration:none" style-hover="color:#fff">Contatti</a></div>
+    <span style="font-size:13.5px;color:#6B7A8F">© <span data-year>2026</span> Neapointer · In fase di lancio</span>
+  </div>
+</main>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  componentDidMount(){
+    document.querySelectorAll('[data-year]').forEach(e=> e.textContent = new Date().getFullYear());
+  }
+}
+</script>
+</body>
+</html>

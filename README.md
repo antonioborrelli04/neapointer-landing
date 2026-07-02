@@ -1,1 +1,0 @@
-# neapointer-landing
